@@ -1,0 +1,70 @@
+no-permission:
+  - "[message] &#FB8808▶ &fНедостаточно &#FB8808прав &fна использование данной команды!"
+  - "[sound] BLOCK_ANVIL_LAND"
+
+invalid-arguments:
+  - "[message] &#FB8808▶ &fНеверные аргументы команды! Введите &#FFFF00/gar help"
+  - "[sound] BLOCK_ANVIL_LAND"
+
+invalid-time-format:
+  - "[message] &#FB8808▶ &fНеверный формат времени! Используйте формат: &#FFFF0060s&f, &#FFFF005m&f, &#FFFF001h"
+  - "[sound] BLOCK_ANVIL_LAND"
+
+help:
+  - "[message] "
+  - "[message] &#FFFF00▶ &fУправление плагином &#FFFF00GlowAutoRestart&f:"
+  - "[message] "
+  - "[message]   &#FFFF00◆ &f/gar time &8— &fвремя до следующего рестарта"
+  - "[message]   &#FFFF00◆ &f/gar start <время> &8— &fзапустить обратный отсчёт"
+  - "[message]   &#FFFF00◆ &f/gar cancel &8— &fотменить активный отсчёт"
+  - "[message]   &#FFFF00◆ &f/gar now &8— &fнемедленный рестарт сервера"
+  - "[message]   &#FFFF00◆ &f/gar reload &8— &fперезагрузить конфигурацию"
+  - "[message] "
+
+time-remaining:
+  - "[message] &#FFFF00◆ &fСледующий рестарт сервера запланирован через: &#FFFF00{time}&f!"
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+start-success:
+  - "[message] &#FFFF00◆ &fОбратный отсчёт до рестарта установлен на: &#FFFF00{time}&f!"
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+cancel-success:
+  - "[message] &#FFFF00◆ &fАктивный отсчёт рестарта успешно &#FFFF00отменён&f!"
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+cancel-broadcast:
+  - "[message] &#FB8808▶ &fРестарт сервера был &#FB8808отменён &fадминистратором!"
+  - "[actionbar] &#FB8808▶ &fРестарт сервера отменён!"
+  - "[sound] BLOCK_NOTE_BLOCK_BASS"
+
+now-success:
+  - "[message] &#FB8808▶ &fЗапущен немедленный рестарт сервера..."
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+reload-success:
+  - "[message] &#FFFF00◆ &fКонфигурация плагина успешно &#FFFF00перезагружена&f!"
+  - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+
+kick-message:
+  - "&#FFFF00▶ &fСервер &#FFFF00перезагружается&f!"
+  - "&#FFFF00◆ &fПожалуйста, переподключитесь через пару минут."
+
+bossbar-title: "&#FFFF00▶ &fРестарт через: &#FB8808{time}"
+
+countdown-broadcast:
+  - "[message] &#FFFF00◆ &fСервер будет перезагружен через: &#FFFF00{time}&f!"
+  - "[actionbar] &#FB8808▶ &fПерезагрузка через &#FFFF00{time}"
+  - "[sound] BLOCK_NOTE_BLOCK_PLING"
+
+countdown-title: "&#FFFF00▶ &fGlowAutoRestart"
+countdown-subtitle: "&#FFFF00◆ &fПерезагрузка через &#FB8808{time}&f!"
+
+countdown-final-title: "&#FB8808▶ &f{time}"
+countdown-final-subtitle: "&#FFFF00◆ &fСервер перезагружается..."
+
+time-units:
+  days: "д."
+  hours: "ч."
+  minutes: "мин."
+  seconds: "сек."

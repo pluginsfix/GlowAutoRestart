@@ -1,0 +1,14 @@
+name: GlowAutoRestart
+version: '${project.version}'
+main: pluginsfix.glowautorestart.GlowAutoRestart
+api-version: '1.21'
+author: pluginsfix
+folia-supported: true
+
+commands:
+  glowautorestart:
+    description: Control automatic server restarts and countdowns
+    aliases:
+      - autorestart
+      - gar
+    permission: glowautorestart.use

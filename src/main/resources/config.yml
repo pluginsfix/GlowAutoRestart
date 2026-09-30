@@ -1,0 +1,47 @@
+config-version: 1
+
+schedule:
+  mode: FIXED_TIMES
+  fixed-times:
+    - "00:00"
+    - "06:00"
+    - "12:00"
+    - "18:00"
+  timezone: UTC
+  interval-seconds: 21600
+
+notification:
+  countdown-milestones:
+    - 86400
+    - 43200
+    - 21600
+    - 10800
+    - 7200
+    - 3600
+    - 1800
+    - 900
+    - 600
+    - 300
+    - 180
+    - 120
+    - 60
+    - 30
+    - 15
+    - 10
+    - 5
+    - 4
+    - 3
+    - 2
+    - 1
+
+bossbar:
+  enabled: true
+  color: YELLOW
+  style: SOLID
+  visible-seconds: 300
+
+execution:
+  kick-players: true
+  restart-command: restart
+  pre-restart-commands:
+    - save-all
